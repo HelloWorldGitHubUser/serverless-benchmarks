@@ -11,7 +11,7 @@
     "type": "invocation-overhead",
     "perf-cost": {
       "benchmark": "110.dynamic-html",
-      "experiments": ["cold", "warm", "burst", "sequential"],
+      "experiments": ["cold", "warm"],
       "input-size": "test",
       "repetitions": 50,
       "concurrent-invocations": 50,
@@ -70,7 +70,7 @@
       "shutdownStorage": false,
       "removeCluster": false,
       "wskBypassSecurity": "true",
-      "wskExec": "wsk",
+      "wskExec": "/usr/local/bin/wsk",
       "experimentalManifest": false,
       "docker_registry": {
         "registry": "",
@@ -80,8 +80,8 @@
       "storage": {
         "address": "",
         "mapped_port": -1,
-        "access_key": "",
-        "secret_key": "",
+        "access_key": "xafh85Is121WIFVFmK_JuRjScFk5UkvZhpHsvF8oY0s",
+        "secret_key": "71426f9d3d21a545e01b8527ccbc0cc598162824e7cbfb42ad1a136017a32afe",
         "instance_id": "",
         "input_buckets": [],
         "output_buckets": [],

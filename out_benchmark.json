@@ -1,0 +1,38 @@
+{
+  "functions": [
+    {
+      "benchmark": "110.dynamic-html",
+      "config": {
+        "architecture": "x86",
+        "memory": 128,
+        "runtime": {
+          "language": "python",
+          "version": "3.7"
+        },
+        "timeout": 10
+      },
+      "hash": "f2a3c8ea36ffbbb7967c026fc690890c",
+      "instance_id": "5dbca5bf15093c4106ed4e6c61812c484c9d8c532c780db53863308b94bceac1",
+      "name": "110.dynamic-html-python-3.7",
+      "port": 9000,
+      "triggers": [],
+      "url": "172.17.0.4:9000"
+    }
+  ],
+  "inputs": [
+    {
+      "random_len": 10,
+      "username": "testname"
+    }
+  ],
+  "storage": {
+    "access_key": "q4-9sW4jzGoCSpOqhDrvXI9RkFCkELvYbLASUu5R1Ho",
+    "address": "172.17.0.2:9000",
+    "input_buckets": [],
+    "instance_id": "1cfcd05f20a6b33311f63d8068295ecdf92ef140c223f166b8fb9c9e04946e3d",
+    "mapped_port": 9011,
+    "output_buckets": [],
+    "secret_key": "5d20141d4ce7b9af30b511d4c8d55c0084d76a56be87a104150e574b485a0b76",
+    "type": "minio"
+  }
+}
